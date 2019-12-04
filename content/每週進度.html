@@ -67,7 +67,7 @@
 <link type="text/css" rel="stylesheet" href="./../cmsimde/static/syntaxhighlighter/css/shCoreDefault.css"/>
 <script type="text/javascript">SyntaxHighlighter.all();</script>
 
-<!-- for LaTeX equations 暫時不用
+<!-- 啟用 LaTeX equations 編輯 -->
 <script src="https://scrum-3.github.io/web/math/MathJax.js?config=TeX-MML-AM_CHTML" type="text/javascript"></script>
 <script type="text/javascript">
 init_mathjax = function() {
@@ -88,7 +88,7 @@ init_mathjax = function() {
 }
 init_mathjax();
 </script>
--->
+
 <!-- 暫時不用
 <script src="./../cmsimde/static/fengari-web.js"></script>
 <script type="text/javascript" src="./../cmsimde/static/Cango-13v08-min.js"></script>
@@ -99,6 +99,11 @@ init_mathjax();
 <script src="https://scrum-3.github.io/web/brython/brython.js"></script>
 <script src="https://scrum-3.github.io/web/brython/brython_stdlib.js"></script>
 -->
+<style>
+img.add_border {
+    border: 3px solid blue;
+}
+</style>
 
 </head>
 <body>
@@ -138,7 +143,7 @@ init_mathjax();
                             <li><a href="./../blog/index.html">blog</a></li>
                         </ul>
                       </li>
-                     <li><a href='About.html'>About</a><li><a href='每週進度.html'>每週進度</a></li>
+                     <li><a href='About.html'>About</a><li class='has-children'><a href='每週進度.html'>每週進度</a><ul class='dropdown'><li><a href='w3-在 Dartpad 引入 Git 中的 Dart 程式.html'>w3-在 Dartpad 引入 Git 中的 Dart 程式</a><li><a href='w6- for 迴圈程式範例、放入倉儲及 button 標註.html'>w6- for 迴圈程式範例、放入倉儲及 button 標註</a><li><a href='w7-利用 for 迴圈與函式定義呼叫解常微分方程式.html'>w7-利用 for 迴圈與函式定義呼叫解常微分方程式</a><li><a href='w10-分組任務.html'>w10-分組任務</a></li>
                       </ul>
                 </nav>
               </div>
@@ -149,11 +154,8 @@ init_mathjax();
           </div>
           
         </header>
-    <div id="tipue_search_content">About << <a href='About.html'>Previous</a> <br /><h1>每週進度</h1>
-<p><a href="https://dartpad.dev?id=c886fed4f87f8814ea51fa1cbb175e35">https://dartpad.dev?id=c886fed4f87f8814ea51fa1cbb175e35</a> </p>
-<p><iframe height="600" src="https://dartpad.dev/embed-inline.html?id=c886fed4f87f8814ea51fa1cbb175e35" width="800"></iframe></p>
-<p><iframe height="600" src="https://dartpad.dev/embed-inline.html?id=88c01a2cf80ffe697f6b104737e0f573" width="800"></iframe></p>
-<p><img alt="" height="242" src="./../images/圖表.png" width="369"/><iframe height="600" src="https://dartpad.dev/embed-inline.html?id=25117eee2c4201a2b80aa0b505f4387f" width="800"></iframe></p><br />About << <a href='About.html'>Previous</a> </div>
+    <div id="tipue_search_content">About << <a href='About.html'>Previous</a> <a href='w3-在 Dartpad 引入 Git 中的 Dart 程式.html'>Next</a> >> w3-在 Dartpad 引入 Git 中的 Dart 程式<br /><h1>每週進度</h1>
+<br />About << <a href='About.html'>Previous</a> <a href='w3-在 Dartpad 引入 Git 中的 Dart 程式.html'>Next</a> >> w3-在 Dartpad 引入 Git 中的 Dart 程式</div>
         
     <!-- footer -->
       <div class="container">
