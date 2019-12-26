@@ -143,7 +143,7 @@ img.add_border {
                             <li><a href="./../blog/index.html">blog</a></li>
                         </ul>
                       </li>
-                     <li><a href='About.html'>About</a><li class='has-children'><a href='每週進度.html'>每週進度</a><ul class='dropdown'><li><a href='w3-在 Dartpad 引入 Git 中的 Dart 程式.html'>w3-在 Dartpad 引入 Git 中的 Dart 程式</a><li><a href='w4-上傳圖片.html'>w4-上傳圖片</a><li><a href='w6- for 迴圈程式範例、放入倉儲及 button 標註.html'>w6- for 迴圈程式範例、放入倉儲及 button 標註</a><li><a href='w7-利用 for 迴圈與函式定義呼叫解常微分方程式.html'>w7-利用 for 迴圈與函式定義呼叫解常微分方程式</a><li><a href='w10~w13-分組任務.html'>w10~w13-分組任務</a><li><a href='w14- Dart 程式轉為 Javascript.html'>w14- Dart 程式轉為 Javascript</a><li><a href='w15-亂數分組.html'>w15-亂數分組</a></li>
+                     <li><a href='About.html'>About</a><li class='has-children'><a href='每週進度.html'>每週進度</a><ul class='dropdown'><li><a href='w3-在 Dartpad 引入 Git 中的 Dart 程式.html'>w3-在 Dartpad 引入 Git 中的 Dart 程式</a><li><a href='w4-上傳圖片.html'>w4-上傳圖片</a><li><a href='w6- for 迴圈程式範例、放入倉儲及 button 標註.html'>w6- for 迴圈程式範例、放入倉儲及 button 標註</a><li><a href='w7-利用 for 迴圈與函式定義呼叫解常微分方程式.html'>w7-利用 for 迴圈與函式定義呼叫解常微分方程式</a><li><a href='w10~w13-分組任務.html'>w10~w13-分組任務</a><li><a href='w14- Dart 程式轉為 Javascript.html'>w14- Dart 程式轉為 Javascript</a><li><a href='w15-亂數分組.html'>w15-亂數分組</a></li></ul><li><a href='w16-檢驗考試.html'>w16-檢驗考試</a></li>
                       </ul>
                 </nav>
               </div>
@@ -155,6 +155,32 @@ img.add_border {
           
         </header>
     <div id="tipue_search_content">w10~w13-分組任務 << <a href='w10~w13-分組任務.html'>Previous</a> <a href='w15-亂數分組.html'>Next</a> >> w15-亂數分組<br /><h1>w14- Dart 程式轉為 Javascript</h1>
+<script>
+function getDart(dirname){
+    source = "https://dartpad.github.io/embed-dart.html?gh_owner=40823219&gh_repo=cp2019&gh_path=downloads/dart_ex/" + dirname + "&theme=dark";
+    document.getElementById("iframe").src = source ;
+}
+
+function getHtmlDart(dirname){
+    source = "https://dartpad.github.io/embed-html.html?gh_owner=40823219&gh_repo=cp2019&gh_path=downloads/dart_ex/" + dirname + "&theme=dark";
+document.getElementById("iframe").src = source ;
+}
+
+function getFlutter(dirname){
+    source = "https://dartpad.github.io/embed-flutter.html?gh_owner=40823219&gh_repo=cp2019&gh_path=downloads/dart_ex/" + dirname + "&theme=dark";
+document.getElementById("iframe").src = source ;
+}
+
+function largest(){
+document.getElementById("iframe").width = document.body.clientWidth ;
+document.getElementById("iframe").height = document.body.clientWidth*0.5 ;
+}
+
+function original(){
+document.getElementById("iframe").width = 800 ;
+document.getElementById("iframe").height = 600 ;
+}
+</script>
 <!-- 取 Dart 程式的按鈕 -->
 <h4>純 Dart 程式</h4>
 <p><button onclick="getDart('hello')">Hello</button> <button onclick="getDart('for')">For Loop</button> <button onclick="getDart('sum')">Sum</button> <button onclick="getDart('runge_kutta')">Runge-Kutta</button> <button onclick="getDart('rk_ex1')">RK ex1</button> <button onclick="getDart('mass_spring_damping')">Mass Spring Damping</button> <button onclick="getDart('function')">Function</button> <button onclick="getDart('fun_parameter')">Function Parameter</button> <button onclick="getDart('fat_arrow')">Fat Arrow</button> <button onclick="getDart('cf')">temperature</button> <button onclick="getDart('temp1')">Temp1</button></p>
