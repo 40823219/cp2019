@@ -35,7 +35,10 @@
 <v t="leo.20180902120523.19"><vh>iframe 導入影片</vh></v>
 </v>
 <v t="leo.20200108185734.1"><vh>newHeadline</vh>
-<v t="leo.20200108185800.1"><vh>newHeadline</vh></v>
+<v t="leo.20200108185800.1"><vh>亂數分組</vh></v>
+</v>
+<v t="leo.20200108225317.1"><vh>newHeadline</vh>
+<v t="leo.20200108225722.1"><vh>newHeadline</vh></v>
 </v>
 </v>
 </v>
@@ -75,6 +78,7 @@ Created by [40823219](http://lab.kmol.info/)
 * [各組溫度的轉換](https://40823219.github.io/cp2019/reveal/index.html#/2/1)
 * [繪製國旗](https://40823219.github.io/cp2019/reveal/index.html#/2/2)
 * [亂數分組](https://40823219.github.io/cp2019/reveal/index.html#/2/3)
+* [心得感想](https://40823219.github.io/cp2019/reveal/index.html#/3)
     &lt;/script&gt;</t>
 <t tx="leo.20180902120523.13">&lt;section&gt;
 @others
@@ -318,5 +322,17 @@ vertical: body pane on the botton</t>
 &lt;/section&gt;
 &lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;</t>
+<t tx="leo.20200108225317.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						</t>
+<t tx="leo.20200108225722.1"># # 心得感想
+
+
+一開始上這門課的時候覺得程式到底是什麼鬼東西，完全沒有任何的頭緒，經過老師的講解和同學的討論，慢慢的理解程式的奧妙，雖然我沒有很厲害但我會更努力的學習。</t>
 </tnodes>
 </leo_file>
