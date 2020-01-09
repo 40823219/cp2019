@@ -314,14 +314,8 @@ vertical: body pane on the botton</t>
 <t tx="leo.20200108185800.1">## 亂數分組程式
 
 
-&lt;p&gt;學員名單 URL: &lt;input id="studListUrl" size="50" type="text" value="https://mde.tw/cp2019/downloads/2019fall_cp_1b_list.txt"&gt;&lt;br&gt; 每組人數: &lt;input id="grpNum" size="3" type="text" value="10"&gt;&lt;br&gt; &lt;input id="submit" type="submit" value="開始分組"&gt;&lt;br&gt; &lt;textarea cols="80" id="output" rows="10"&gt;&lt;/textarea&gt;&lt;/p&gt;
-&lt;script src="/downloads/dart_ex/random_grouping/random_grouping.js"&gt;&lt;/script&gt;
-&lt;p&gt;&lt;!-- ############################## --&gt;&lt;/p&gt;
-&lt;p style="padding-left: 120px;"&gt;&lt;a href="https://dartpad.github.io?id=8463c358dfeb477801b2c42737697e82"&gt;設一乙亂數分組&lt;/a&gt;&lt;/p&gt;
-    &lt;/script&gt;
-&lt;/section&gt;
-&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;</t>
+&lt;iframe width="800" height="550" src="https://dartpad.github.io/embed-html.html?gh_owner=40823219&amp;gh_repo=cp2019&amp;gh_path=downloads/dart_ex/random_grouping&amp;theme=dark" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+    &lt;/script&gt;</t>
 <t tx="leo.20200108225317.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
